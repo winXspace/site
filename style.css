@@ -18,7 +18,9 @@ header.header {
   width: 100%;
   flex: 0 0 auto;
 
-  opacity: 0.8;
+  background: url(assets/robo2.jpg);
+  background-size: 50%;
+
 
 }
 
@@ -28,7 +30,7 @@ header.header nav {
   //border: 1px solid green ;
   background: blue;
   height: 100%;
-
+  opacity: 0.7;
 }
 
 header.header nav .menu{
@@ -196,8 +198,18 @@ main.teem_main .teem_container .cell .text {
 /* ------------- sponsors -------------*/
 main.sponsors_main {
   flex: 1 0 auto;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 
 }
+main.sponsors_main * {
+  width: 800px;
+  height: 200px;
+  border: 1px solid red;
+}
+
 
 /* ------------- contacts -------------*/
 main.contacts_main {
