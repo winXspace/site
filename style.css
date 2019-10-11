@@ -190,3 +190,17 @@ main.teem_main .teem_container .cell .text {
   margin: 10px;
   margin-left: 20px;
 }
+
+
+
+/* ------------- sponsors -------------*/
+main.sponsors_main {
+  flex: 1 0 auto;
+
+}
+
+/* ------------- contacts -------------*/
+main.contacts_main {
+  flex: 1 0 auto;
+
+}
