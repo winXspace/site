@@ -191,6 +191,7 @@ main.teem_main .teem_container .cell  {
 main.teem_main .teem_container .cell .text {
   margin: 10px;
   margin-left: 20px;
+  font-size: 100%;
 }
 
 
