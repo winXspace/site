@@ -7,7 +7,7 @@
 }
 .top_slider figure figcaption{
     position: absolute;
-    top: 0;
+    bottom: 20px;
     left: 0;
     width: 100%;
     height: 80%;
@@ -28,11 +28,11 @@ header.header{
     position: relative;
 }
 header.header nav{
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 85px;
+    height: 65px;
     background:rgba(218, 165, 20,0.89);
     display: flex;
     align-items: center;
@@ -128,6 +128,10 @@ main.main .stroke{
     max-width: 100%;
     height: auto;
 }
+section.forma{
+    display: flex;
+    align-items: center;
+}
 section.form{
     background: url(contact.jpg) center center no-repeat;
     background-size: cover;
@@ -212,7 +216,7 @@ section.form form input[type="submit"]:hover{
 footer.footer{
     background: #c69116;
     position: relative;
-    height: 180px;
+    height: 130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -230,7 +234,7 @@ footer.footer .copyrights{
 
 }
 footer.footer .right{
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
     padding-right: 120px;
 }
@@ -253,4 +257,86 @@ footer.footer .right .social .instagram{
     height: 60px;
     background: url(instagram.png) center center no-repeat;
     display: block;
+}
+.main_1{
+    background-image: url(contact.jpg);
+    background-attachment: fixed;
+}
+.donate{
+
+background-size: cover;
+padding-top: 50px;
+padding-bottom: 50px;
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+main.main .donate .button_1{
+background-color: #ffe299;
+width: auto;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #000000;
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+text-transform: uppercase;
+padding: 25px;
+}
+main.main .button_1:hover{
+    color: coral;
+    transition: all 250ms ease-in-out;
+}
+.text_donate{
+    font-size: 18px;
+    padding-left: 25px;
+    color: #9b4600
+}
+.button_donate{
+    padding-left: 25px;
+}
+a{
+    text-decoration: none;
+}
+main.main .for_sponsor{
+    background-color: #c69116;
+    color: #693000;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 25px;
+}
+main.main .sponsor_buy{
+    color: #9b4600;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+}
+
+.big_black{
+color: #000000;
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+text-transform: uppercase;
+padding: 50px;
+display: flex;
+justify-content: center;
+}
+.all_sponsor{
+    padding: 20px;
+}
+.li_1{
+    padding-top: 20px;
+}
+li{
+    list-style-type: disc;
 }
