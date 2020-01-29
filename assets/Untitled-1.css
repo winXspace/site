@@ -247,6 +247,7 @@ footer.footer .right_data .social a {
     margin-left: 27px;
 }
 footer.footer .right .social .facebook{
+    padding-right: 10px;
     width: 60px;
     height: 60px;
     background: url(facebook.png) center center no-repeat;
@@ -274,14 +275,14 @@ align-items: center;
 justify-content: center;
 }
 main.main .donate .button_1{
-background-color: #ffe299;
+background-color: #d9b30c;
 width: auto;
 height: auto;
 display: flex;
 align-items: center;
 justify-content: center;
 color: #000000;
-font-size: 16px;
+font-size: 25px;
 font-family: 'Raleway', sans-serif;
 font-weight: 900;
 text-transform: uppercase;
@@ -292,9 +293,9 @@ main.main .button_1:hover{
     transition: all 250ms ease-in-out;
 }
 .text_donate{
-    font-size: 18px;
+    font-size: 25px;
     padding-left: 25px;
-    color: #9b4600
+    color: #4a3300
 }
 .button_donate{
     padding-left: 25px;
@@ -303,9 +304,10 @@ a{
     text-decoration: none;
 }
 main.main .for_sponsor{
-    background-color: #c69116;
-    color: #693000;
-    font-size: 22px;
+    background-image: url(1text_under.jpg);
+    background-size: cover;
+    color: #d9b30c;
+    font-size: 24px;
     font-family: 'Raleway', sans-serif;
     display: flex;
     align-items: center;
@@ -335,8 +337,9 @@ justify-content: center;
     padding: 20px;
 }
 .li_1{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 li{
     list-style-type: disc;
+    list-style-position: inside;
 }
