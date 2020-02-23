@@ -1,0 +1,28 @@
+@media only screen and (max-width: 992px){
+    .form_contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .form_left{
+        margin-bottom: 50px;
+    }
+    .logo{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .top_menu{
+        margin-top: 15px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .right_box{
+        padding: 0px;
+        width: 100%;
+        height: auto;
+    }
+}
